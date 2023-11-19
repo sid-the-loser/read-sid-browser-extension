@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Read Sid!",
+    "version": "1.0",
+    "description": "Modifies Website CSS to make it easier for Sid to process things!",
+    "permissions": ["activeTab"],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ],
+    "icons": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  }
+  
